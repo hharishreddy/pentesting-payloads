@@ -1,0 +1,18 @@
+X-Forwarded-Host: a.\ "><script>alert(1)</script>
+X-Host: attacker.com
+User agent header 
+X-Forwarded-Host: burpcollaborator.com 
+X-Forward-Scheme: nonhttps
+X-Forwarded-Server: canary
+Origin: null
+
+
+
+This over ride path of the response from the server
+X-Original-URL: /admin
+
+Inject the port number in the host header 
+Host: google.com:8080
+
+X-Forwarded-Scheme: http
+To change the http method
